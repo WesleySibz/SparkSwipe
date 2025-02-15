@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 5px;
+    background-color: #f5f5f5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title-h1{
+    display: flex;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #181818;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.output-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    height: 500px;
+    width: fit-content;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.idea-card{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
-.App-link {
-  color: #61dafb;
+.title{
+    display: flex;
+    font-size: 1.4em;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description{
+    display: flex;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 500px;
+    padding: 30px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 1px;
+}
+
+.dislike-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #670101;
+    padding: 10px;
+    width: 40px;
+    border-radius: 360px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.like-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #006400;
+    padding: 10px;
+    width: 40px;
+    border-radius: 360px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #333;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
